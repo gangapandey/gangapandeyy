@@ -51,8 +51,8 @@ span a {
     cursor: nesw-resize;
 }
 span a:hover {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
 }
 .contactBtn {
     border: 0.1em solid #64ffda;

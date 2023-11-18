@@ -30,7 +30,7 @@ export const Card = ({
           Demo
         </a>
         <a href={source} className={styles.link}>
-          Source
+          <img className={styles.icon} src="./assets/projects/githubIcon.png"  alt="git" />
         </a>
       </div>
     </div>

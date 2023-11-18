@@ -1,19 +1,27 @@
 [
     {
-      "title": "Gaming info website",
+      "title": "Responsive Gaming website",
       "imageSrc": "projects/project.png",
-      "description": "Responsive Gaming website build as a beginner.",
-      "skills": ["HTML", "CSS"],
+      "description": "Responsive Gaming website build as a beginner to learn Frontend.",
+      "skills": ["HTML", "CSS", "Javascript"],
       "demo": "https://www.example.com",
       "source": "https://github.com/gangapandey/uninginee.squad"
     },
     {
-      "title": "Resturant Website",
+      "title": "Resturant Landing Page",
       "imageSrc": "projects/project.png",
-      "description": "A resturant website build as a intern in codsoft",
-      "skills": ["HTML", "React"],
+      "description": "A resturant landing page build as a intern in codsoft",
+      "skills": ["HTML", "CSS", "ReactJS"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com/gangapandey/codsoft-T1"
+    },
+    {
+      "title": "Todo app",
+      "imageSrc": "projects/project.png",
+      "description": "A todo app using reactjs to clearn concept on Js.",
+      "skills": ["HTML", "CSS", "ReactJS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/gangapandey/Todo"
     }
     
   ]

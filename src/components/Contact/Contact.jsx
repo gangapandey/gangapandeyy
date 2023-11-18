@@ -5,28 +5,44 @@ import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+    <div className={styles.connect} id="contact">
+      <div className={styles.paragraph}>
+        <p className={styles.topic}>03. Let's Connect!</p>
+        <h2 className={styles.subtopic}>Get In Touch</h2>
+        <p className={styles.texxt}>I am currently seeking for intern/Entry role in Web <br /> Development. If you have any works for me or just  <br /> want to say Hello, my inbox is always open.</p>
       </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
-        </li>
-        <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
-        </li>
-      </ul>
-    </footer>
+      <div className={styles.btn}>
+        <a className={styles.button} href="mailto:igangapandey@gmail.com">Say Hello</a>
+      </div>
+
+
+      <footer id="contact" className={styles.container}>
+        <div className={styles.text}>
+          <h2><a className={styles.title} href="/">GANGA<span style={{ color: '#64ffda' }}>/</span>P</a></h2>
+        </div>
+
+        <ul className={styles.images}>
+          <li className={styles.link}>
+            <a href="https://www.instagram.com/gangapandeyy/"><img src={getImageUrl("contact/instagramIcon.png")} alt="Insta icon" /></a>
+          </li>
+          <li className={styles.link}>
+            <a href="https://www.linkedin.com/in/gangapandey/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" /></a>
+          </li>
+          <li className={styles.link}>
+            <a href="https://www.facebook.com/gangapandeyy"><img src={getImageUrl("contact/facebookicon.png")} alt="Facebook icon" /></a>
+          </li>
+          <li className={styles.link}>
+            <a href="https://github.com/gangapandey"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
+          </li>
+          
+          
+          
+        </ul>
+
+        <div className={styles.last}>
+          <p>Thanks for Scrolling!❤️</p>
+        </div>
+      </footer>
+    </div>
   );
 };

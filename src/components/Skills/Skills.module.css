@@ -26,10 +26,10 @@
   margin-top: 74px;
 }
 .skills {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 147px;
+  gap: 44px;
   margin-left: 80px;
   cursor: nesw-resize;
 }
@@ -39,22 +39,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
-.skillImageContainer:hover{
-    background-color: #64ffda;
-}
+
 .skillImageContainer img {
-  width: 75px;
+  width: 65px;
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 16px;
   font-family: var(--font-roboto);
-  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
   margin: 14px;
-  margin-left: 28px;
+  
 }
 .skill p:hover{
     color:#64ffda;
