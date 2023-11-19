@@ -13,16 +13,16 @@
     },
     {
       "title": "SASS",
-      "imageSrc": "skills/sass.png"
+      "imageSrc": "skills/mysass.png"
     },
     {
       "title": "Tailwind",
-      "imageSrc": "skills/tailwind.png"
+      "imageSrc": "skills/tailwindd.png"
     },
     
     {
       "title": "Git & Github",
-      "imageSrc": "skills/githubb.png"
+      "imageSrc": "skills/gitt.png"
     },
     {
       "title": "Node",
@@ -38,6 +38,6 @@
     },
     {
       "title": "Adobe XD",
-      "imageSrc": "skills/xd.png"
+      "imageSrc": "skills/myxd.png"
     }
 ]
