@@ -1,6 +1,7 @@
 import React from "react";
 
-import styles from "./Card.module.css";
+import styles from '../Projects/Card.module.css';
+
 import { getImageUrl } from "../../utils";
 
 export const Card = ({
