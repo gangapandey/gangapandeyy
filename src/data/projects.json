@@ -47,8 +47,8 @@
       "imageSrc": "projects/quizapp.png",
       "description": "A weather app using reactjs to learn concept on Js.",
       "skills": ["HTML", "CSS", "ReactJS"],
-      "demo": "#",
-      "source": "#"
+      "demo": "https://gangapandey.github.io/Quiz-app/",
+      "source": "https://github.com/gangapandey/Quiz-app"
     }
     
   ]
