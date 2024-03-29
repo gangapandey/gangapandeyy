@@ -34,17 +34,17 @@
   cursor: nesw-resize;
 }
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: #fff;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 .skillImageContainer img {
-  width: 65px;
+  width: 40px;
 }
 
 .skill p {

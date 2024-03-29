@@ -27,10 +27,10 @@ export const Card = ({
         
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
+        <a href={demo} className={styles.link} target="_blank">
+          <span>Live Demo</span>
         </a>
-        <a href={source} className={styles.link}>
+        <a href={source} className={styles.link} target="_blank">
           <img className={styles.icon} src="./assets/projects/githubIcon.png"  alt="git" />
         </a>
       </div>

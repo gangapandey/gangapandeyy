@@ -1,27 +1,54 @@
 [
-    {
-      "title": "Responsive Gaming website",
-      "imageSrc": "projects/project.png",
-      "description": "Responsive Gaming website build as a beginner to learn Frontend.",
-      "skills": ["HTML", "CSS", "Javascript"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/gangapandey/uninginee.squad"
-    },
-    {
-      "title": "Resturant Landing Page",
-      "imageSrc": "projects/project.png",
-      "description": "A resturant landing page build as a intern in codsoft",
-      "skills": ["HTML", "CSS", "ReactJS"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com/gangapandey/codsoft-T1"
-    },
+  {
+    "title": "RentCenter",
+    "imageSrc": "projects/RentCenter.png",
+    "description": "Electronics renting online platform ",
+    "skills": ["React", "Tailwind", "Redux Toolkit", "Nodejs", "Mongodb"],
+    "demo": "#",
+    "source": "https://github.com/gangapandey/Rentcenter-Frontend"
+  },
+  {
+    "title": "G.Foodie",
+    "imageSrc": "projects/gfoodie.png",
+    "description": "A responsive food app with vanilla HTML, CSS, JS",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://gangapandey.github.io/G.Foodie/",
+    "source": "https://github.com/gangapandey/G.Foodie"
+  },
+  {
+    "title": "Resturant Landing Page",
+    "imageSrc": "projects/Foodie.png",
+    "description": "A resturant landing page build as a intern in codsoft",
+    "skills": ["HTML", "CSS", "ReactJS"],
+    "demo": "https://resturant-landing-page-dun.vercel.app/",
+    "source": "https://github.com/gangapandey/Resturant-landing-page"
+  },
+  
+    
     {
       "title": "Todo app",
-      "imageSrc": "projects/project.png",
-      "description": "A todo app using reactjs to clearn concept on Js.",
+      "imageSrc": "projects/todo.png",
+      "description": "A todo app using reactjs to learn concept on Js.",
       "skills": ["HTML", "CSS", "ReactJS"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/gangapandey/Todo"
+      "demo": "https://todo-list-wine-kappa.vercel.app/",
+      "source": "https://github.com/gangapandey/Todo-List"
+    },
+
+    {
+      "title": "Weather app",
+      "imageSrc": "projects/weather.png",
+      "description": "A weather app using reactjs to learn concept on Js.",
+      "skills": ["HTML", "CSS", "ReactJS"],
+      "demo": "#",
+      "source": "#"
+    },
+    {
+      "title": "Quiz app",
+      "imageSrc": "projects/quizapp.png",
+      "description": "A weather app using reactjs to learn concept on Js.",
+      "skills": ["HTML", "CSS", "ReactJS"],
+      "demo": "#",
+      "source": "#"
     }
     
   ]

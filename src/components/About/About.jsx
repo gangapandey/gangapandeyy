@@ -5,35 +5,16 @@ import { getImageUrl } from "../../utils";
 const About = () => {
     return (
         <section className={styles.container} id='about'>
-            <h2 className={styles.title}><span>01. </span> About</h2>
+            <h2 className={styles.title}><span>01. </span> About Me</h2>
             <div className={styles.content}>
+
+                <p className={styles.aboutItems}>
+                 My name is Ganga D. Pandey and I am a self taught Front-end Developer based in Kathmandu. I found my passion for Web Development in 2022. Then I started exploring the Frontend tools and frameworks.<br></br><br></br>
+                 What Kept me on this journey is that I found it exciting to always  be learning new things and encountering challenges that I'm not familiar with.<br></br><br></br>
+                 When I am not programming, I like travelling, reading books and drawing. 
+                </p>
+
                 <img src={getImageUrl("about/aboutImage.png")} alt="Me sitting with a laptop" className={styles.aboutImage} />
-
-                <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Fronted Developer</h3>
-                            <p>I'm a frontend developer with experience in building responsive and optimized sites</p>
-                        </div>
-                    </li>
-
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
-                            <p>I am learning to develop fast and optimised back-end systems and APIs</p>
-                        </div>
-                    </li>
-
-                    <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-                        <div className={styles.aboutItemText}>
-                            <h3>UI Designer</h3>
-                            <p>I have designed multiple landing pages and have created design systems as well</p>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </section>
     )

@@ -23,16 +23,16 @@ export const Contact = () => {
 
         <ul className={styles.images}>
           <li className={styles.link}>
-            <a href="https://www.instagram.com/gangapandeyy/"><img src={getImageUrl("contact/instagramIcon.png")} alt="Insta icon" /></a>
+            <a href="https://www.linkedin.com/in/gangapandey/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" /></a>
           </li>
           <li className={styles.link}>
-            <a href="https://www.linkedin.com/in/gangapandey/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" /></a>
+            <a href="https://github.com/gangapandey"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
           </li>
           <li className={styles.link}>
             <a href="https://www.facebook.com/gangapandeyy"><img src={getImageUrl("contact/facebookicon.png")} alt="Facebook icon" /></a>
           </li>
           <li className={styles.link}>
-            <a href="https://github.com/gangapandey"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
+            <a href="https://www.instagram.com/gangapandeyy/"><img src={getImageUrl("contact/instagramIcon.png")} alt="Insta icon" /></a>
           </li>
           
           
